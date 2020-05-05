@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title> Titre </title>
+    </head>
+    <body>
+        <p><a href="textlistforms.html">Textes&Listes&Formulaires</a> | <a href="tables.html">Tableaux</a> | <a href="medias.html">Médias</a></p>
+        <hr>
+        <ul>
+            <li><a href="#Etudiants">Etudiants</a></li>
+            <li><a href="#Enseignants">Enseignants</a></li>
+            <li><a href="#Abreviations">Abreviations</a></li>
+        </ul>
+        <hr>
+        
+        <ol>
+        <h1 id="#Etudiants"><li>Etudiants</li></h1>
+        <form action="textlistforms.html" method="GET">
+            Prénom : <input type="text" name="prenom">
+            Nom : <input type="text" name="nom">
+            <br>
+            Année d'études : <input type="radio" name="year" value="1A">1A <input type="radio" name="year" value="2A">2A <br>
+            Remarques :
+            <br>
+            <textarea name="remarques"></textarea>
+            <br>
+            <input type="submit" value="Valider">
+        </form>
+        <hr>
+
+        <h1 id="#Enseignants"><li>Enseignants</li></h1>
+        <form action="medias.html" method="GET">
+            <p>
+                Prénom :
+                <br>
+                <input type="text" name="prenom">
+                <br>
+                Nom :
+                <br>
+                <input type="text" name="nom">
+                <br>
+                Site :
+                <br>
+                <select name="site">
+                    <option>Brest</option>
+                    <option>Nantes</option>
+                    <option>Rennes</option>
+                </select>
+                <br>
+                Mot de passe :
+                <br>
+                <input type="password" name="password">
+                <br>
+                <input type="submit" value="Valider">
+            </p>
+        </form>
+        
+        <hr>
+
+        <h1 id="#Abreviations"><li>Abreviations</li></h1>
+            <dl>
+                <h2><dt>ISEN</dt></h2>
+                <dd>Institut Supérieur de l'Electronique et du Numérique</dd>
+                <br>
+                <h2><dt>HTML</dt></h2>
+                <dd>HyperText Markup Language</dd>
+            </dl>
+
+
+        </ol>
+    </body>
+</html>
