@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title> Titre </title>
+        <style>
+            table, td, th {border: 1px solid}
+        </style>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    </head>
+    <body>
+        <p><a href="textlistforms.html">Textes&Listes&Formulaires</a> | <a href="tables.html">Tableaux</a> | <a href="medias.html">Médias</a></p>
+        <hr>
+        <ol>
+            <li><a href="#Images">Images</a></li>
+            <li><a href="#Video1">Video1</a></li>
+            <li><a href="#Video2">Video2</a></li>
+            <li><a href="#Audio">Audio</a></li>
+            <li><a href="#iframe">iframe</a></li>
+        </ol>
+        <hr>
+        <h1>Manipulation des médias en HTML</h1>
+        <h2 id="Images">Images<span class="material-icons">insert_photo</span></h2>
+        <table>
+            <tr><td rowspan="2"><img  src="images/nantes.jpg" alt="nantes" width="300"></td><td><svg width="500" height="300">
+                <a href="https://isen-nantes.fr/" target="_blank"><rect x="170" y="100" width="150" height="150" style="fill:rgb(0,255,0);stroke-width:3;stroke:rgb(50,50,50)"></rect></a>
+              </svg></td><td><img  src="images/nantes.jpg" alt="nantes" width="300"></td></tr>
+            <tr><td> <svg height="120" width="200">
+                <text x="50" y="15" fill="red" transform="rotate(30 20,40)">Non disponible</text>
+              </svg> </td><td><img src="images/nantes.jpg" alt="nantes" width="300">
+              </td></tr>
+        </table>
+        <br>
+        <h2 id="Video1">Vidéo avec la balise &lt;iframe&gt;<span class="material-icons">movie</span></h2>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7gwK1dcz0IU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <h2 id="Video2">Vidéo avec la balse &lt;video&gt;<span class="material-icons">movie</span></h2>
+        <br>
+        <video controls width="500">
+            <source src="videos/windtunnel.mp4" type="video/mp4"/>
+            <source src="videos/windtunnel.webm" type="video/webm"/>
+            <source src="videos/windtunnel.ogg" type="video/ogg"/>
+        </video>
+        <br>
+        <h2 id="Audio">Audio<span class="material-icons">audiotrack</span></h2>
+        <br>
+        <audio src="audios/audio.mp3.m4a" controls></audio>
+        <br>
+        <h2 id="iframe">iframe<span class="material-icons">insert_link</span><a href="https://www.isen-nantes.fr/" target="site de l'isen nantes">Cliquer ici !</a></h2>
+        <br>
+        <iframe name="site de l'isen nantes" width="400" height="400"></iframe>
+
+
+    </body>
+</html>
