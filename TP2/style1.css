@@ -1,0 +1,88 @@
+body {
+    font-family: Verdana,  sans-serif;
+
+
+}
+
+h1 {
+    font-family: 'Marko One', Georgia, serif;
+    text-shadow: .2em .2em #D3D3D3;
+    color:#993399;
+    font-size: 1.5em;
+    
+}
+
+#div1 {
+    text-align: center;
+
+}
+#div1 #info {
+    font-style: italic;
+    color: #808080;
+}
+
+span.label {
+    font-weight: bold;
+    font-style: normal;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #CC6600;
+    letter-spacing: 8px;
+    text-align: center;
+
+}
+
+
+/*a { 
+    text-decoration: none; 
+}*/
+
+#appetizers ul {
+    list-style-type: none;
+}
+
+dt {
+    color: #A0522D;
+    font-weight: bold;
+}
+
+.price {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #808080;
+}
+
+strong {
+    font-style: italic;
+    color: #FF6347;
+}
+
+.warning {
+    color:#FF0000;
+    font-size: small;
+}
+
+ul {
+    
+}
+
+li.c1 {
+    list-style-type: lower-roman;
+}
+
+li.c2 {
+    list-style-type: circle;
+}
+
+li.c3 {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li.c4 {
+    list-style-position: outside;
+    font-size: 2rem;
+    list-style-image:url(images/bull.PNG);
+}

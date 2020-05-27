@@ -1,0 +1,98 @@
+body {
+    font-family: Verdana,  sans-serif;
+    background-color: #D2DC9D;
+    background-image: url(images/bullseye.png);
+    background-repeat: repeat;
+}
+
+h1 {
+    font-family: 'Marko One', Georgia, serif;
+    text-shadow: .2em .2em #D3D3D3;
+    color:#993399;
+    font-size: 1.5em;
+    
+}
+
+#div1 {
+    background-image: url(images/purpledot.png);
+    background-repeat: repeat-x;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.50);
+
+}
+#div1 #info {
+    font-style: italic;
+    color: #808080;
+}
+
+span.label {
+    font-weight: bold;
+    font-style: normal;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #CC6600;
+    letter-spacing: 8px;
+    text-align: center;
+
+}
+
+
+
+#appetizers ul {
+    list-style-type: none;
+}
+
+#appetizers ul li a{
+    color: #993399;
+    text-decoration: none; 
+}
+
+#appetizers ul li a:hover {
+    color: #C700F2;
+    background-color: #FFC0CB;
+}
+
+#appetizers ul li a:visited {
+    color: #937393;
+}
+dt {
+    color: #A0522D;
+    font-weight: bold;
+}
+
+.price {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #808080;
+}
+
+strong {
+    font-style: italic;
+    color: #FF6347;
+}
+
+.warning {
+    color:#FF0000;
+    font-size: small;
+}
+
+li.c1 {
+    list-style-type: lower-roman;
+}
+
+li.c2 {
+    list-style-type: circle;
+}
+
+li.c3 {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li.c4 {
+    list-style-position: outside;
+    font-size: 2rem;
+    list-style-image:url(images/bull.PNG);
+}
