@@ -1,0 +1,75 @@
+header {
+    background-image: url(images/croissants_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    text-align: center;
+}
+header a {
+    color:#F9AB33;
+    border-bottom: #F9AB33 1px dotted;
+}
+header a:focus{
+    color:#608080;
+}
+header nav{
+    background-color: #783F27;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+header nav ul {
+    list-style: none;
+}
+
+header p{
+    font-style: italic;
+    color:#FFFFFF;
+}
+
+div.main {
+    box-sizing: border-box;
+    border: 5px double #EADDC4;
+    border-radius: 25px;
+    margin: 2.5%;
+    padding: 1em;
+}
+
+div.main h2{
+    color:#555555;
+}
+
+div h2, h3, p.more {
+    font-family:  "Stint Ultra Expanded", serif;
+}
+
+div.main h3{
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color:#7A0002;
+    border-top: 1px solid #7A0002;
+    border-left: 3px solid #7A0002;
+    padding-left: 1em;
+    margin-top: 2.5em;
+}
+
+div.hours {
+    background-color: #F6F3ED;
+    margin: 2.5%;
+    padding: 1em;
+    border: 3px solid #7A0002;
+}
+div.hours p{
+    color: #783F27;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: #783F27;
+    text-align: center;
+    color :#EADDC4;
+    padding: 1em;
+}
